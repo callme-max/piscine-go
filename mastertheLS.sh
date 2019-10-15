@@ -1,1 +1,1 @@
-ls -upm | sed 's/ //' | sed 's/ //' | sed 's/ //' | sed 's/ //' | sed 's/ //'
+ls -upm | sed 's/ //g' 
