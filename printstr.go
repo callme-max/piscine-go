@@ -9,8 +9,3 @@ func PrintStr(str string) {
 		z01.PrintRune(stringnew[i])
 	}
 }
-
-func main() {
-	str := "Hello World!"
-	PrintStr(str)
-}
