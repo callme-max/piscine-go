@@ -13,7 +13,7 @@ func IterativeFactorial(nb int) int {
 			result = result * (i + 1)
 		}
 		return result
+	} else {
+		return 1
 	}
-	result = 0
-	return result
 }
