@@ -7,10 +7,11 @@ func IterativeFactorial(nb int) int {
 		result = 0
 		return result
 	}
-	for i := 1; i < nb; i++ {
-		result = result * (i + 1)
-	}
-	if result > 0 && nb < 2000000 {
+
+	if nb > 0 && nb < 18 {
+		for i := 1; i < nb; i++ {
+			result = result * (i + 1)
+		}
 		return result
 	}
 	result = 0
