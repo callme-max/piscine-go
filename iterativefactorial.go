@@ -8,12 +8,12 @@ func IterativeFactorial(nb int) int {
 		return result
 	}
 
-	if nb > 0 && nb < 18 {
+	if nb >= 0 && nb < 18 {
 		for i := 1; i < nb; i++ {
 			result = result * (i + 1)
 		}
 		return result
-	} else {
-		return 1
 	}
+	result = 0
+	return result
 }
